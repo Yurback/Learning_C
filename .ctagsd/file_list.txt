@@ -3,5 +3,6 @@
 /home/yurback/Learning_C/1_Challenge_printYourName/test.c
 /home/yurback/Learning_C/3_Challenge_rectangle/main.c
 /home/yurback/Learning_C/1_OutputUserInput/main.c
+/home/yurback/Learning_C/5_Challenge_rainfalls/weather.c
 /home/yurback/Learning_C/Hello2/main.c
 /home/yurback/Learning_C/Hello_world/main.c

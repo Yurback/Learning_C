@@ -7,7 +7,8 @@
     <Project Name="1_Challenge_printYourName" Path="1_Challenge_printYourName/1_Challenge_printYourName.project" Active="No"/>
     <Project Name="2_Challenge_enums" Path="2_Challenge_enums/2_Challenge_enums.project" Active="No"/>
     <Project Name="3_Challenge_rectangle" Path="3_Challenge_rectangle/3_Challenge_rectangle.project" Active="No"/>
-    <Project Name="4_Challange_prime_numbers" Path="4_Challange_prime_numbers/4_Challange_prime_numbers.project" Active="Yes"/>
+    <Project Name="4_Challange_prime_numbers" Path="4_Challange_prime_numbers/4_Challange_prime_numbers.project" Active="No"/>
+    <Project Name="5_Challenge_rainfalls" Path="5_Challenge_rainfalls/5_Challenge_rainfalls.project" Active="Yes"/>
   </VirtualDirectory>
   <BuildMatrix>
     <WorkspaceConfiguration Name="Debug">
@@ -20,6 +21,7 @@
       <Project Name="2_Challenge_enums" ConfigName="Debug"/>
       <Project Name="3_Challenge_rectangle" ConfigName="Debug"/>
       <Project Name="4_Challange_prime_numbers" ConfigName="Debug"/>
+      <Project Name="5_Challenge_rainfalls" ConfigName="Debug"/>
     </WorkspaceConfiguration>
     <WorkspaceConfiguration Name="Release">
       <Environment/>
@@ -31,6 +33,7 @@
       <Project Name="2_Challenge_enums" ConfigName="Release"/>
       <Project Name="3_Challenge_rectangle" ConfigName="Release"/>
       <Project Name="4_Challange_prime_numbers" ConfigName="Release"/>
+      <Project Name="5_Challenge_rainfalls" ConfigName="Release"/>
     </WorkspaceConfiguration>
   </BuildMatrix>
 </CodeLite_Workspace>
