@@ -55,6 +55,6 @@ int main(void)
         int a = x && y || z++;
 
         printf("%d\n", z);
-        printf()
+        printf("%d\n", a);
     
 }
