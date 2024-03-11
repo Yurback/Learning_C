@@ -1,8 +1,8 @@
 .PHONY: clean All
 
 All:
-	@echo "----------Building project:[ 1_OutputUserInput - Debug ]----------"
-	@cd "1_OutputUserInput" && "$(MAKE)" -f  "1_OutputUserInput.mk"
+	@echo "----------Building project:[ 4_Challange_prime_numbers - Debug ]----------"
+	@cd "4_Challange_prime_numbers" && "$(MAKE)" -f  "4_Challange_prime_numbers.mk"
 clean:
-	@echo "----------Cleaning project:[ 1_OutputUserInput - Debug ]----------"
-	@cd "1_OutputUserInput" && "$(MAKE)" -f  "1_OutputUserInput.mk" clean
+	@echo "----------Cleaning project:[ 4_Challange_prime_numbers - Debug ]----------"
+	@cd "4_Challange_prime_numbers" && "$(MAKE)" -f  "4_Challange_prime_numbers.mk" clean

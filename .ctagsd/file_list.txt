@@ -1,3 +1,4 @@
+/home/yurback/Learning_C/4_Challange_prime_numbers/prime_numbers.c
 /home/yurback/Learning_C/2_Challenge_enums/enums.c
 /home/yurback/Learning_C/1_Challenge_printYourName/test.c
 /home/yurback/Learning_C/3_Challenge_rectangle/main.c
