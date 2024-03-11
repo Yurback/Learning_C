@@ -1,0 +1,33 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<CodeLite_Workspace Name="Learning_C" Database="" Version="10000">
+  <Project Name="Hello_world" Path="Hello_world/Hello_world.project" Active="No"/>
+  <Project Name="Hello2" Path="Hello2/Hello2.project" Active="No"/>
+  <Project Name="1_OutputUserInput" Path="1_OutputUserInput/1_OutputUserInput.project" Active="Yes"/>
+  <VirtualDirectory Name="Challanges">
+    <Project Name="1_Challenge_printYourName" Path="1_Challenge_printYourName/1_Challenge_printYourName.project" Active="No"/>
+    <Project Name="2_Challenge_enums" Path="2_Challenge_enums/2_Challenge_enums.project" Active="No"/>
+    <Project Name="3_Challenge_rectangle" Path="3_Challenge_rectangle/3_Challenge_rectangle.project" Active="No"/>
+  </VirtualDirectory>
+  <BuildMatrix>
+    <WorkspaceConfiguration Name="Debug">
+      <Environment/>
+      <Project Name="Hello_world" ConfigName="Debug"/>
+      <Project Name="Hello2" ConfigName="Debug"/>
+      <Project Name="1_OutputUserInput" ConfigName="Debug"/>
+      <Project Name="1_Challenge_printYourName" ConfigName="Debug"/>
+      <Project Name="2_challenge_enums" ConfigName="Debug"/>
+      <Project Name="2_Challenge_enums" ConfigName="Debug"/>
+      <Project Name="3_Challenge_rectangle" ConfigName="Debug"/>
+    </WorkspaceConfiguration>
+    <WorkspaceConfiguration Name="Release">
+      <Environment/>
+      <Project Name="Hello_world" ConfigName="Release"/>
+      <Project Name="Hello2" ConfigName="Release"/>
+      <Project Name="1_OutputUserInput" ConfigName="Release"/>
+      <Project Name="1_Challenge_printYourName" ConfigName="Release"/>
+      <Project Name="2_challenge_enums" ConfigName="Release"/>
+      <Project Name="2_Challenge_enums" ConfigName="Release"/>
+      <Project Name="3_Challenge_rectangle" ConfigName="Release"/>
+    </WorkspaceConfiguration>
+  </BuildMatrix>
+</CodeLite_Workspace>
