@@ -4,6 +4,18 @@
 
 //#include <math.h>
 
+// 
+//int isPrime(int num)
+//{
+//    if(num % 2 == 0 && num != 2 || num <= 1 )
+//        return 0;
+//    for(int i = 3; i * i <= num; i += 2) {
+//        if(num % i == 0)
+//            return 0;
+//    }
+//    return 1;
+//}
+
 // int isPrime(int num)
 //{
 //     double sq = sqrt(num);
