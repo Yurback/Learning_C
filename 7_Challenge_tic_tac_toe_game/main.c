@@ -1,4 +1,5 @@
 #include <stdio.h>
+#include <stdlib.h>
 
 int checkForWin(char data[]);
 //
@@ -12,9 +13,20 @@ int main(int argc, char** argv)
     drawField(data, 0, 0);
     int userInput;
     int winner = 0;
+    //    int check;
 
     while(checkForWin(data)) {
-        scanf("%d", &userInput);
+
+        while(scanf("%d", &userInput) != 1) {
+            getchar();
+//            for(int ch; (ch = getchar()) != EOF && ch != '\n';)
+                ;
+            printf("\n  You can only input number from 1 to 9, try again...  ");
+        };
+        if(data[userInput] == 'X' || data[userInput] == 'O') {
+            printf("  You can't hit to this field    ");
+            continue;
+        }
         drawField(data, userInput, 0);
         markBoard(data, userInput, &winner);
         drawField(data, userInput, 0);
@@ -37,13 +49,13 @@ void markBoard(char data[], int input, int* winner)
         data[input] = 'X';
     if(data[0] == '2')
         data[input] = 'O';
- 
+
     // Проверяем победил ли пользователь
     if((data[1] == 'X' && data[2] == 'X' && data[3] == 'X') || (data[4] == 'X' && data[5] == 'X' && data[6] == 'X') ||
        (data[7] == 'X' && data[8] == 'X' && data[9] == 'X') || (data[1] == 'X' && data[4] == 'X' && data[7] == 'X') ||
        (data[2] == 'X' && data[5] == 'X' && data[8] == 'X') || (data[3] == 'X' && data[6] == 'X' && data[9] == 'X') ||
        (data[1] == 'X' && data[5] == 'X' && data[9] == 'X') || (data[3] == 'X' && data[5] == 'X' && data[7] == 'X')) {
-        *winner = data[0]-'0';
+        *winner = data[0] - '0';
         data[0] = 'W';
     } else if((data[1] == 'O' && data[2] == 'O' && data[3] == 'O') ||
               (data[4] == 'O' && data[5] == 'O' && data[6] == 'O') ||
@@ -53,23 +65,33 @@ void markBoard(char data[], int input, int* winner)
               (data[3] == 'O' && data[6] == 'O' && data[9] == 'O') ||
               (data[1] == 'O' && data[5] == 'O' && data[9] == 'O') ||
               (data[3] == 'O' && data[5] == 'O' && data[7] == 'O')) {
-        *winner = data[0]-'0';
+        *winner = data[0] - '0';
         data[0] = 'W';
     } else if(data[1] != '1' && data[2] != '2' && data[3] != '3' && data[4] != '4' && data[5] != '5' &&
               data[6] != '6' && data[7] != '7' && data[8] != '8' && data[9] != '9') {
         data[0] = 'D';
     };
-       // Переход хода
+    // Переход хода
     if(data[0] == '1')
         data[0] = '2';
-    else if (data[0] == '2')
+    else if(data[0] == '2')
         data[0] = '1';
     return;
 }
 
 void drawField(char gamedata[], int input, int winner)
 {
-    printf("\e[1;1H\e[2J");
+    // Сдвигаем вниз чтобы очистить консоль
+    printf("\n");
+    //    printf("\033[1A");
+    //    printf("\033[1A");
+    //    printf("\033[20С");
+    system("clear");
+
+    //    \033[#A передвинуть курсор вверх на # строк
+    //    \033[#B передвинуть курсор вниз на # строк
+    //    \033[#С передвинуть курсор вправо на # столбцов
+    //    printf("\e[1;1H\e[2J");
     printf("\n\n  Tic tac toe game");
     printf("\n\n Player 1 goes with: X \tPlayer 2 goes with : O\n\n");
     printf("\t     |     |\n");
@@ -83,7 +105,7 @@ void drawField(char gamedata[], int input, int winner)
     printf("\t     |     |");
     if(!input) {
         if(gamedata[0] == 'W') {
-            printf("\n\n  Player %d is the winner, congratulate!!!\n\n\n", winner);
+            printf("\n\n  Player %d is the winner, congratulating!!!\n\n\n", winner);
         } else if(gamedata[0] == 'D') {
             printf("\n\n  It is draw, good game!!! \n\n\n");
         } else {
