@@ -1,8 +1,8 @@
 .PHONY: clean All
 
 All:
-	@echo "----------Building project:[ 6_Functions_sqrt_cgd_abs - Debug ]----------"
-	@cd "6_Functions_sqrt_cgd_abs" && "$(MAKE)" -f  "6_Functions_sqrt_cgd_abs.mk"
+	@echo "----------Building project:[ 7_Challenge_tic_tac_toe_game - Debug ]----------"
+	@cd "7_Challenge_tic_tac_toe_game" && "$(MAKE)" -f  "7_Challenge_tic_tac_toe_game.mk"
 clean:
-	@echo "----------Cleaning project:[ 6_Functions_sqrt_cgd_abs - Debug ]----------"
-	@cd "6_Functions_sqrt_cgd_abs" && "$(MAKE)" -f  "6_Functions_sqrt_cgd_abs.mk" clean
+	@echo "----------Cleaning project:[ 7_Challenge_tic_tac_toe_game - Debug ]----------"
+	@cd "7_Challenge_tic_tac_toe_game" && "$(MAKE)" -f  "7_Challenge_tic_tac_toe_game.mk" clean
