@@ -10,7 +10,9 @@
     <Project Name="4_Challange_prime_numbers" Path="4_Challange_prime_numbers/4_Challange_prime_numbers.project" Active="No"/>
     <Project Name="5_Challenge_rainfalls" Path="5_Challenge_rainfalls/5_Challenge_rainfalls.project" Active="No"/>
     <Project Name="6_Functions_sqrt_cgd_abs" Path="6_Functions_sqrt_cgd_abs/6_Functions_sqrt_cgd_abs.project" Active="No"/>
-    <Project Name="7_Challenge_tic_tac_toe_game" Path="7_Challenge_tic_tac_toe_game/7_Challenge_tic_tac_toe_game.project" Active="Yes"/>
+    <Project Name="7_Challenge_tic_tac_toe_game" Path="7_Challenge_tic_tac_toe_game/7_Challenge_tic_tac_toe_game.project" Active="No"/>
+    <Project Name="8_Challenge_char_array" Path="8_Challenge_char_array/8_Challenge_char_array.project" Active="No"/>
+    <Project Name="9_Challenge_reverseStr_bublesort" Path="9_Challenge_reverseStr_bublesort/9_Challenge_reverseStr_bublesort.project" Active="Yes"/>
   </VirtualDirectory>
   <BuildMatrix>
     <WorkspaceConfiguration Name="Debug">
@@ -26,6 +28,8 @@
       <Project Name="5_Challenge_rainfalls" ConfigName="Debug"/>
       <Project Name="6_Functions_sqrt_cgd_abs" ConfigName="Debug"/>
       <Project Name="7_Challenge_tic_tac_toe_game" ConfigName="Debug"/>
+      <Project Name="8_Challenge_char_array" ConfigName="Debug"/>
+      <Project Name="9_Challenge_reverseStr_bublesort" ConfigName="Debug"/>
     </WorkspaceConfiguration>
     <WorkspaceConfiguration Name="Release">
       <Environment/>
@@ -40,6 +44,8 @@
       <Project Name="5_Challenge_rainfalls" ConfigName="Release"/>
       <Project Name="6_Functions_sqrt_cgd_abs" ConfigName="Release"/>
       <Project Name="7_Challenge_tic_tac_toe_game" ConfigName="Release"/>
+      <Project Name="8_Challenge_char_array" ConfigName="Release"/>
+      <Project Name="9_Challenge_reverseStr_bublesort" ConfigName="Release"/>
     </WorkspaceConfiguration>
   </BuildMatrix>
 </CodeLite_Workspace>
