@@ -14,6 +14,9 @@
     <Project Name="8_Challenge_char_array" Path="8_Challenge_char_array/8_Challenge_char_array.project" Active="No"/>
     <Project Name="9_Challenge_reverseStr_bublesort" Path="9_Challenge_reverseStr_bublesort/9_Challenge_reverseStr_bublesort.project" Active="Yes"/>
   </VirtualDirectory>
+  <Project Name="2_TokenizingString" Path="2_TokenizingString/2_TokenizingString.project" Active="No"/>
+  <Project Name="3_Conversion_strings" Path="3_Conversion_strings/3_Conversion_strings.project" Active="No"/>
+  <Project Name="4_Pointers_inception" Path="4_Pointers_inception/4_Pointers_inception.project" Active="No"/>
   <BuildMatrix>
     <WorkspaceConfiguration Name="Debug">
       <Environment/>
@@ -30,6 +33,9 @@
       <Project Name="7_Challenge_tic_tac_toe_game" ConfigName="Debug"/>
       <Project Name="8_Challenge_char_array" ConfigName="Debug"/>
       <Project Name="9_Challenge_reverseStr_bublesort" ConfigName="Debug"/>
+      <Project Name="2_TokenizingString" ConfigName="Debug"/>
+      <Project Name="3_Conversion_strings" ConfigName="Debug"/>
+      <Project Name="4_Pointers_inception" ConfigName="Debug"/>
     </WorkspaceConfiguration>
     <WorkspaceConfiguration Name="Release">
       <Environment/>
@@ -46,6 +52,9 @@
       <Project Name="7_Challenge_tic_tac_toe_game" ConfigName="Release"/>
       <Project Name="8_Challenge_char_array" ConfigName="Release"/>
       <Project Name="9_Challenge_reverseStr_bublesort" ConfigName="Release"/>
+      <Project Name="2_TokenizingString" ConfigName="Release"/>
+      <Project Name="3_Conversion_strings" ConfigName="Release"/>
+      <Project Name="4_Pointers_inception" ConfigName="Release"/>
     </WorkspaceConfiguration>
   </BuildMatrix>
 </CodeLite_Workspace>

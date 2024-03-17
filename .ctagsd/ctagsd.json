@@ -3,7 +3,7 @@
  "ignore_spec": "/.git/;/.svn/;/build/;/build-;/CPack_Packages/;/CMakeFiles/",
  "codelite_indexer": "/usr/bin/codelite-ctags",
  "limit_results": 150,
- "search_path": [".", "/usr/include", "/usr/include/c++/11", "/usr/include/c++/11/backward", "/usr/include/x86_64-linux-gnu", "/usr/include/x86_64-linux-gnu/c++/11", "/usr/lib/gcc/x86_64-linux-gnu/11/include", "/usr/local/include"],
+ "search_path": [".", "/usr/include", "/usr/include/c++/11", "/usr/include/c++/11/backward", "/usr/include/c++/12", "/usr/include/c++/12/backward", "/usr/include/x86_64-linux-gnu", "/usr/include/x86_64-linux-gnu/c++/11", "/usr/include/x86_64-linux-gnu/c++/12", "/usr/lib/gcc/x86_64-linux-gnu/11/include", "/usr/lib/gcc/x86_64-linux-gnu/12/include", "/usr/local/include"],
  "types": [{
    "key": "std::unique_ptr::pointer",
    "value": "_Tp"
