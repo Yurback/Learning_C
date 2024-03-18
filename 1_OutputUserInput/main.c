@@ -34,21 +34,29 @@ int main(void)
     //    printf("Maximum Integer Value: %d\n", INT_MAX);
     //    printf("Minimum Integer Value: %d\n", INT_MIN);
     //    return 0;
+        int var1 = 0b00000000000000000000000000001110;
+        printf("My value is: %b\n", var1);
+        // хотим заменить 3 бит на 0 а потом обратно
+        var1 = var1^(1<<3);
+        printf("var1 is %b\n",var1);
+        var1 = var1^(1<<3);
+        printf("var1 is %b\n",var1);
 
-    //    int max = 0b00000000000000000000000000001110;
-    //    printf("My value is: %b\n", max);
-    //    int mask = 0b00000000000000000000000000001000;
 
-    //    int count = 0;
-    //    if(mask==1) count = 1;
-    //    while(mask!=1) {
-    //        mask=mask>>1;count++;
-    //    }
-    //    max = max>>count;
-    //    max= max^mask;
-    //    printf("My value is: %b\n", max);
-    //    max= max^mask;
-    //    printf("My value is: %b\n", max);
+        int max = 0b00000000000000000000000000001110;
+        printf("My value is: %b\n", max);
+        int mask = 0b00000000000000000000000000001000;
+
+        int count = 0;
+        if(mask==1) count = 1;
+        while(mask!=1) {
+            mask=mask>>1;count++;
+        }
+        max = max>>count;
+        max= max^mask;
+        printf("My value is: %b\n", max);
+        max= max^mask;
+        printf("My value is: %b\n", max);
     //
     //    int seven = 0;
     //    seven = 52/7;
@@ -71,4 +79,9 @@ int main(void)
 
     printf("%d\n", z);
     printf("%d\n", a);
+    
+//    char h[20]; // будет ошибка
+    char *h;
+    h="time's up";
+    printf("string is %s",h);
 }

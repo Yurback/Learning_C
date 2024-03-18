@@ -1,11 +1,31 @@
 [{
+  "file": "/home/yurback/Learning_C/3_Conversion_strings/main.c",
+  "directory": "/home/yurback/Learning_C/3_Conversion_strings",
+  "command": "/usr/bin/gcc-12 -c /home/yurback/Learning_C/3_Conversion_strings/main.c -o /home/yurback/Learning_C/3_Conversion_strings/main.c.o -target x86_64-linux-gnu -I/usr/include/c++/12 -I/usr/include/x86_64-linux-gnu/c++/12 -I/usr/include/c++/12/backward -I/usr/lib/gcc/x86_64-linux-gnu/12/include -I/usr/local/include -I/usr/include/x86_64-linux-gnu -I/usr/include -I. -I.  -O0  -gdwarf-2  -std=c99  -Wall"
+ }, {
+  "file": "/home/yurback/Learning_C/2_TokenizingString/main.c",
+  "directory": "/home/yurback/Learning_C/2_TokenizingString",
+  "command": "/usr/bin/gcc-12 -c /home/yurback/Learning_C/2_TokenizingString/main.c -o /home/yurback/Learning_C/2_TokenizingString/main.c.o -target x86_64-linux-gnu -I/usr/include/c++/12 -I/usr/include/x86_64-linux-gnu/c++/12 -I/usr/include/c++/12/backward -I/usr/lib/gcc/x86_64-linux-gnu/12/include -I/usr/local/include -I/usr/include/x86_64-linux-gnu -I/usr/include -I. -I.  -O0  -gdwarf-2  -std=c99  -Wall"
+ }, {
   "file": "/home/yurback/Learning_C/4_Pointers_inception/main.c",
   "directory": "/home/yurback/Learning_C/4_Pointers_inception",
   "command": "/usr/bin/gcc-12 -c /home/yurback/Learning_C/4_Pointers_inception/main.c -o /home/yurback/Learning_C/4_Pointers_inception/main.c.o -target x86_64-linux-gnu -I/usr/include/c++/12 -I/usr/include/x86_64-linux-gnu/c++/12 -I/usr/include/c++/12/backward -I/usr/lib/gcc/x86_64-linux-gnu/12/include -I/usr/local/include -I/usr/include/x86_64-linux-gnu -I/usr/include -I. -I.  -O0  -gdwarf-2  -std=c99  -Wall"
  }, {
-  "file": "/home/yurback/Learning_C/3_Conversion_strings/main.c",
-  "directory": "/home/yurback/Learning_C/3_Conversion_strings",
-  "command": "/usr/bin/gcc-12 -c /home/yurback/Learning_C/3_Conversion_strings/main.c -o /home/yurback/Learning_C/3_Conversion_strings/main.c.o -target x86_64-linux-gnu -I/usr/include/c++/12 -I/usr/include/x86_64-linux-gnu/c++/12 -I/usr/include/c++/12/backward -I/usr/lib/gcc/x86_64-linux-gnu/12/include -I/usr/local/include -I/usr/include/x86_64-linux-gnu -I/usr/include -I. -I.  -O0  -gdwarf-2  -std=c99  -Wall"
+  "file": "/home/yurback/Learning_C/13_Challenge_Structures/main.c",
+  "directory": "/home/yurback/Learning_C/13_Challenge_Structures",
+  "command": "/usr/bin/gcc-12 -c /home/yurback/Learning_C/13_Challenge_Structures/main.c -o /home/yurback/Learning_C/13_Challenge_Structures/main.c.o -target x86_64-linux-gnu -I/usr/include/c++/12 -I/usr/include/x86_64-linux-gnu/c++/12 -I/usr/include/c++/12/backward -I/usr/lib/gcc/x86_64-linux-gnu/12/include -I/usr/local/include -I/usr/include/x86_64-linux-gnu -I/usr/include -I. -I.  -O0  -gdwarf-2  -std=c99  -Wall"
+ }, {
+  "file": "/home/yurback/Learning_C/12_Challenge_DynamicMemoryAllocation/main.c",
+  "directory": "/home/yurback/Learning_C/12_Challenge_DynamicMemoryAllocation",
+  "command": "/usr/bin/gcc-12 -c /home/yurback/Learning_C/12_Challenge_DynamicMemoryAllocation/main.c -o /home/yurback/Learning_C/12_Challenge_DynamicMemoryAllocation/main.c.o -target x86_64-linux-gnu -I/usr/include/c++/12 -I/usr/include/x86_64-linux-gnu/c++/12 -I/usr/include/c++/12/backward -I/usr/lib/gcc/x86_64-linux-gnu/12/include -I/usr/local/include -I/usr/include/x86_64-linux-gnu -I/usr/include -I. -I.  -O0  -gdwarf-2  -std=c99  -Wall"
+ }, {
+  "file": "/home/yurback/Learning_C/11_Challenge_PointersArithmetics/main.c",
+  "directory": "/home/yurback/Learning_C/11_Challenge_PointersArithmetics",
+  "command": "/usr/bin/gcc-12 -c /home/yurback/Learning_C/11_Challenge_PointersArithmetics/main.c -o /home/yurback/Learning_C/11_Challenge_PointersArithmetics/main.c.o -target x86_64-linux-gnu -I/usr/include/c++/12 -I/usr/include/x86_64-linux-gnu/c++/12 -I/usr/include/c++/12/backward -I/usr/lib/gcc/x86_64-linux-gnu/12/include -I/usr/local/include -I/usr/include/x86_64-linux-gnu -I/usr/include -I. -I.  -O0  -gdwarf-2  -std=c99  -Wall"
+ }, {
+  "file": "/home/yurback/Learning_C/5_copyWideCharString/main.c",
+  "directory": "/home/yurback/Learning_C/5_copyWideCharString",
+  "command": "/usr/bin/gcc-12 -c /home/yurback/Learning_C/5_copyWideCharString/main.c -o /home/yurback/Learning_C/5_copyWideCharString/main.c.o -target x86_64-linux-gnu -I/usr/include/c++/12 -I/usr/include/x86_64-linux-gnu/c++/12 -I/usr/include/c++/12/backward -I/usr/lib/gcc/x86_64-linux-gnu/12/include -I/usr/local/include -I/usr/include/x86_64-linux-gnu -I/usr/include -I. -I.  -O0  -gdwarf-2  -std=c99  -Wall"
  }, {
   "file": "/home/yurback/Learning_C/Hello_world/main.c",
   "directory": "/home/yurback/Learning_C/Hello_world",
@@ -27,10 +47,6 @@
   "directory": "/home/yurback/Learning_C/9_Challenge_reverseStr_bublesort",
   "command": "/usr/bin/gcc-12 -c /home/yurback/Learning_C/9_Challenge_reverseStr_bublesort/main.c -o /home/yurback/Learning_C/9_Challenge_reverseStr_bublesort/main.c.o -target x86_64-linux-gnu -I/usr/include/c++/12 -I/usr/include/x86_64-linux-gnu/c++/12 -I/usr/include/c++/12/backward -I/usr/lib/gcc/x86_64-linux-gnu/12/include -I/usr/local/include -I/usr/include/x86_64-linux-gnu -I/usr/include -I. -I.  -O0  -gdwarf-2  -std=c99  -Wall"
  }, {
-  "file": "/home/yurback/Learning_C/1_OutputUserInput/main.c",
-  "directory": "/home/yurback/Learning_C/1_OutputUserInput",
-  "command": "/usr/bin/gcc-12 -c /home/yurback/Learning_C/1_OutputUserInput/main.c -o /home/yurback/Learning_C/1_OutputUserInput/main.c.o -target x86_64-linux-gnu -I/usr/include/c++/12 -I/usr/include/x86_64-linux-gnu/c++/12 -I/usr/include/c++/12/backward -I/usr/lib/gcc/x86_64-linux-gnu/12/include -I/usr/local/include -I/usr/include/x86_64-linux-gnu -I/usr/include -I. -I.  -O0  -gdwarf-2  -std=c99  -Wall"
- }, {
   "file": "/home/yurback/Learning_C/3_Challenge_rectangle/main.c",
   "directory": "/home/yurback/Learning_C/3_Challenge_rectangle",
   "command": "/usr/bin/gcc-12 -c /home/yurback/Learning_C/3_Challenge_rectangle/main.c -o /home/yurback/Learning_C/3_Challenge_rectangle/main.c.o -target x86_64-linux-gnu -I/usr/include/c++/12 -I/usr/include/x86_64-linux-gnu/c++/12 -I/usr/include/c++/12/backward -I/usr/lib/gcc/x86_64-linux-gnu/12/include -I/usr/local/include -I/usr/include/x86_64-linux-gnu -I/usr/include -I. -I.  -O0  -gdwarf-2  -std=c99  -Wall"
@@ -51,11 +67,15 @@
   "directory": "/home/yurback/Learning_C/4_Challange_prime_numbers",
   "command": "/usr/bin/gcc-12 -c /home/yurback/Learning_C/4_Challange_prime_numbers/prime_numbers.c -o /home/yurback/Learning_C/4_Challange_prime_numbers/prime_numbers.c.o -target x86_64-linux-gnu -I/usr/include/c++/12 -I/usr/include/x86_64-linux-gnu/c++/12 -I/usr/include/c++/12/backward -I/usr/lib/gcc/x86_64-linux-gnu/12/include -I/usr/local/include -I/usr/include/x86_64-linux-gnu -I/usr/include -I. -I.  -O0  -gdwarf-2  -std=c99  -Wall"
  }, {
-  "file": "/home/yurback/Learning_C/2_TokenizingString/main.c",
-  "directory": "/home/yurback/Learning_C/2_TokenizingString",
-  "command": "/usr/bin/gcc-12 -c /home/yurback/Learning_C/2_TokenizingString/main.c -o /home/yurback/Learning_C/2_TokenizingString/main.c.o -target x86_64-linux-gnu -I/usr/include/c++/12 -I/usr/include/x86_64-linux-gnu/c++/12 -I/usr/include/c++/12/backward -I/usr/lib/gcc/x86_64-linux-gnu/12/include -I/usr/local/include -I/usr/include/x86_64-linux-gnu -I/usr/include -I. -I.  -O0  -gdwarf-2  -std=c99  -Wall"
- }, {
   "file": "/home/yurback/Learning_C/6_Functions_sqrt_cgd_abs/main.c",
   "directory": "/home/yurback/Learning_C/6_Functions_sqrt_cgd_abs",
   "command": "/usr/bin/gcc-12 -c /home/yurback/Learning_C/6_Functions_sqrt_cgd_abs/main.c -o /home/yurback/Learning_C/6_Functions_sqrt_cgd_abs/main.c.o -target x86_64-linux-gnu -I/usr/include/c++/12 -I/usr/include/x86_64-linux-gnu/c++/12 -I/usr/include/c++/12/backward -I/usr/lib/gcc/x86_64-linux-gnu/12/include -I/usr/local/include -I/usr/include/x86_64-linux-gnu -I/usr/include -I. -I.  -O0  -gdwarf-2  -std=c99  -Wall"
+ }, {
+  "file": "/home/yurback/Learning_C/1_OutputUserInput/main.c",
+  "directory": "/home/yurback/Learning_C/1_OutputUserInput",
+  "command": "/usr/bin/gcc-12 -c /home/yurback/Learning_C/1_OutputUserInput/main.c -o /home/yurback/Learning_C/1_OutputUserInput/main.c.o -target x86_64-linux-gnu -I/usr/include/c++/12 -I/usr/include/x86_64-linux-gnu/c++/12 -I/usr/include/c++/12/backward -I/usr/lib/gcc/x86_64-linux-gnu/12/include -I/usr/local/include -I/usr/include/x86_64-linux-gnu -I/usr/include -I. -I.  -O0  -gdwarf-2  -std=c99  -Wall"
+ }, {
+  "file": "/home/yurback/Learning_C/10_Challange_pointersInFunctions/main.c",
+  "directory": "/home/yurback/Learning_C/10_Challange_pointersInFunctions",
+  "command": "/usr/bin/gcc-12 -c /home/yurback/Learning_C/10_Challange_pointersInFunctions/main.c -o /home/yurback/Learning_C/10_Challange_pointersInFunctions/main.c.o -target x86_64-linux-gnu -I/usr/include/c++/12 -I/usr/include/x86_64-linux-gnu/c++/12 -I/usr/include/c++/12/backward -I/usr/lib/gcc/x86_64-linux-gnu/12/include -I/usr/local/include -I/usr/include/x86_64-linux-gnu -I/usr/include -I. -I.  -O0  -gdwarf-2  -std=c99  -Wall"
  }]

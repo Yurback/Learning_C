@@ -7,6 +7,7 @@
 // printf and wprintf don't work together, look
 // https://stackoverflow.com/questions/17700797/printf-wprintf-s-s-ls-char-and-wchar-errors-not-announced-by-a-compil
 // we must use <freopen(NULL, "w", stdout);>
+// 2 variant use type tchar_t with #condition
 
 void reversestr(char arr[], wchar_t result[]);
 

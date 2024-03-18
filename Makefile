@@ -1,8 +1,8 @@
 .PHONY: clean All
 
 All:
-	@echo "----------Building project:[ 9_Challenge_reverseStr_bublesort - Debug ]----------"
-	@cd "9_Challenge_reverseStr_bublesort" && "$(MAKE)" -f  "9_Challenge_reverseStr_bublesort.mk"
+	@echo "----------Building project:[ 13_Challenge_Structures - Debug ]----------"
+	@cd "13_Challenge_Structures" && "$(MAKE)" -f  "13_Challenge_Structures.mk"
 clean:
-	@echo "----------Cleaning project:[ 9_Challenge_reverseStr_bublesort - Debug ]----------"
-	@cd "9_Challenge_reverseStr_bublesort" && "$(MAKE)" -f  "9_Challenge_reverseStr_bublesort.mk" clean
+	@echo "----------Cleaning project:[ 13_Challenge_Structures - Debug ]----------"
+	@cd "13_Challenge_Structures" && "$(MAKE)" -f  "13_Challenge_Structures.mk" clean

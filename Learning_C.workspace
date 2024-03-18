@@ -12,11 +12,16 @@
     <Project Name="6_Functions_sqrt_cgd_abs" Path="6_Functions_sqrt_cgd_abs/6_Functions_sqrt_cgd_abs.project" Active="No"/>
     <Project Name="7_Challenge_tic_tac_toe_game" Path="7_Challenge_tic_tac_toe_game/7_Challenge_tic_tac_toe_game.project" Active="No"/>
     <Project Name="8_Challenge_char_array" Path="8_Challenge_char_array/8_Challenge_char_array.project" Active="No"/>
-    <Project Name="9_Challenge_reverseStr_bublesort" Path="9_Challenge_reverseStr_bublesort/9_Challenge_reverseStr_bublesort.project" Active="Yes"/>
+    <Project Name="9_Challenge_reverseStr_bublesort" Path="9_Challenge_reverseStr_bublesort/9_Challenge_reverseStr_bublesort.project" Active="No"/>
+    <Project Name="10_Challange_pointersInFunctions" Path="10_Challange_pointersInFunctions/10_Challange_pointersInFunctions.project" Active="No"/>
+    <Project Name="11_Challenge_PointersArithmetics" Path="11_Challenge_PointersArithmetics/11_Challenge_PointersArithmetics.project" Active="No"/>
+    <Project Name="12_Challenge_DynamicMemoryAllocation" Path="12_Challenge_DynamicMemoryAllocation/12_Challenge_DynamicMemoryAllocation.project" Active="No"/>
+    <Project Name="13_Challenge_Structures" Path="13_Challenge_Structures/13_Challenge_Structures.project" Active="Yes"/>
   </VirtualDirectory>
   <Project Name="2_TokenizingString" Path="2_TokenizingString/2_TokenizingString.project" Active="No"/>
   <Project Name="3_Conversion_strings" Path="3_Conversion_strings/3_Conversion_strings.project" Active="No"/>
   <Project Name="4_Pointers_inception" Path="4_Pointers_inception/4_Pointers_inception.project" Active="No"/>
+  <Project Name="5_copyWideCharString" Path="5_copyWideCharString/5_copyWideCharString.project" Active="No"/>
   <BuildMatrix>
     <WorkspaceConfiguration Name="Debug">
       <Environment/>
@@ -36,6 +41,11 @@
       <Project Name="2_TokenizingString" ConfigName="Debug"/>
       <Project Name="3_Conversion_strings" ConfigName="Debug"/>
       <Project Name="4_Pointers_inception" ConfigName="Debug"/>
+      <Project Name="10_Challange_pointersInFunctions" ConfigName="Debug"/>
+      <Project Name="11_Challenge_PointersArithmetics" ConfigName="Debug"/>
+      <Project Name="5_copyWideCharString" ConfigName="Debug"/>
+      <Project Name="12_Challenge_DynamicMemoryAllocation" ConfigName="Debug"/>
+      <Project Name="13_Challenge_Structures" ConfigName="Debug"/>
     </WorkspaceConfiguration>
     <WorkspaceConfiguration Name="Release">
       <Environment/>
@@ -55,6 +65,11 @@
       <Project Name="2_TokenizingString" ConfigName="Release"/>
       <Project Name="3_Conversion_strings" ConfigName="Release"/>
       <Project Name="4_Pointers_inception" ConfigName="Release"/>
+      <Project Name="10_Challange_pointersInFunctions" ConfigName="Release"/>
+      <Project Name="11_Challenge_PointersArithmetics" ConfigName="Release"/>
+      <Project Name="5_copyWideCharString" ConfigName="Release"/>
+      <Project Name="12_Challenge_DynamicMemoryAllocation" ConfigName="Release"/>
+      <Project Name="13_Challenge_Structures" ConfigName="Release"/>
     </WorkspaceConfiguration>
   </BuildMatrix>
 </CodeLite_Workspace>
