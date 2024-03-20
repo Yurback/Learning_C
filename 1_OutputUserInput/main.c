@@ -41,6 +41,8 @@ int main(void)
         printf("var1 is %b\n",var1);
         var1 = var1^(1<<3);
         printf("var1 is %b\n",var1);
+        
+          printf("%d\n", 0b0^(1<<7));
 
 
         int max = 0b00000000000000000000000000001110;

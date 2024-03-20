@@ -1,10 +1,13 @@
-/home/yurback/Learning_C/13_Challenge_Structures/main.c
-/home/yurback/Learning_C/4_Pointers_inception/main.c
 /home/yurback/Learning_C/3_Conversion_strings/main.c
 /home/yurback/Learning_C/2_TokenizingString/main.c
+/home/yurback/Learning_C/16_Challenge_FileOutput/main.c
+/home/yurback/Learning_C/14_Challenge_Struct_Pointers_Funct/main.c
+/home/yurback/Learning_C/4_Pointers_inception/main.c
+/home/yurback/Learning_C/13_Challenge_Structures/main.c
 /home/yurback/Learning_C/12_Challenge_DynamicMemoryAllocation/main.c
 /home/yurback/Learning_C/11_Challenge_PointersArithmetics/main.c
 /home/yurback/Learning_C/5_copyWideCharString/main.c
+/home/yurback/Learning_C/15_Challenge_FileInput/main.c
 /home/yurback/Learning_C/Hello_world/main.c
 /home/yurback/Learning_C/5_Challenge_rainfalls/weather.c
 /home/yurback/Learning_C/8_Challenge_char_array/main.c
