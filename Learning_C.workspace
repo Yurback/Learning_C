@@ -2,7 +2,7 @@
 <CodeLite_Workspace Name="Learning_C" Database="" Version="10000">
   <Project Name="Hello_world" Path="Hello_world/Hello_world.project" Active="No"/>
   <Project Name="Hello2" Path="Hello2/Hello2.project" Active="No"/>
-  <Project Name="1_OutputUserInput" Path="1_OutputUserInput/1_OutputUserInput.project" Active="Yes"/>
+  <Project Name="1_OutputUserInput" Path="1_OutputUserInput/1_OutputUserInput.project" Active="No"/>
   <VirtualDirectory Name="Challanges">
     <Project Name="1_Challenge_printYourName" Path="1_Challenge_printYourName/1_Challenge_printYourName.project" Active="No"/>
     <Project Name="2_Challenge_enums" Path="2_Challenge_enums/2_Challenge_enums.project" Active="No"/>
@@ -20,6 +20,7 @@
     <Project Name="14_Challenge_Struct_Pointers_Funct" Path="14_Challenge_Struct_Pointers_Funct/14_Challenge_Struct_Pointers_Funct.project" Active="No"/>
     <Project Name="15_Challenge_FileInput" Path="15_Challenge_FileInput/15_Challenge_FileInput.project" Active="No"/>
     <Project Name="16_Challenge_FileOutput" Path="16_Challenge_FileOutput/16_Challenge_FileOutput.project" Active="No"/>
+    <Project Name="17_Challenge_positioning" Path="17_Challenge_positioning/17_Challenge_positioning.project" Active="Yes"/>
   </VirtualDirectory>
   <Project Name="2_TokenizingString" Path="2_TokenizingString/2_TokenizingString.project" Active="No"/>
   <Project Name="3_Conversion_strings" Path="3_Conversion_strings/3_Conversion_strings.project" Active="No"/>
@@ -52,6 +53,7 @@
       <Project Name="14_Challenge_Struct_Pointers_Funct" ConfigName="Debug"/>
       <Project Name="15_Challenge_FileInput" ConfigName="Debug"/>
       <Project Name="16_Challenge_FileOutput" ConfigName="Debug"/>
+      <Project Name="17_Challenge_positioning" ConfigName="Debug"/>
     </WorkspaceConfiguration>
     <WorkspaceConfiguration Name="Release">
       <Environment/>
@@ -79,6 +81,7 @@
       <Project Name="14_Challenge_Struct_Pointers_Funct" ConfigName="Release"/>
       <Project Name="15_Challenge_FileInput" ConfigName="Release"/>
       <Project Name="16_Challenge_FileOutput" ConfigName="Release"/>
+      <Project Name="17_Challenge_positioning" ConfigName="Release"/>
     </WorkspaceConfiguration>
   </BuildMatrix>
 </CodeLite_Workspace>

@@ -43,7 +43,7 @@ int main(void)
         printf("var1 is %b\n",var1);
         
           printf("%d\n", 0b0^(1<<7));
-
+        printf("Check bitwise %d\n", 127>>7);
 
         int max = 0b00000000000000000000000000001110;
         printf("My value is: %b\n", max);

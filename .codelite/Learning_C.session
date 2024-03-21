@@ -1,61 +1,40 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <Session Name="/home/yurback/Learning_C/Learning_C.workspace">
-  <int Value="7" Name="m_selectedTab"/>
+  <int Value="1" Name="m_selectedTab"/>
   <wxString Value="/home/yurback/Learning_C/Learning_C.workspace" Name="m_workspaceName"/>
   <TabInfoArray Name="TabInfoArray">
     <TabInfo>
-      <wxString Value="/home/yurback/Learning_C/15_Challenge_FileInput/main.c" Name="FileName"/>
+      <wxString Value="/home/yurback/Learning_C/4_Pointers_inception/main.c" Name="FileName"/>
       <int Value="0" Name="FirstVisibleLine"/>
-      <int Value="0" Name="CurrentLine"/>
+      <int Value="1" Name="CurrentLine"/>
+      <wxArrayString Name="Bookmarks"/>
+      <IntVector Name="CollapsedFolds"/>
+    </TabInfo>
+    <TabInfo>
+      <wxString Value="/home/yurback/Learning_C/17_Challenge_positioning/main.c" Name="FileName"/>
+      <int Value="83" Name="FirstVisibleLine"/>
+      <int Value="92" Name="CurrentLine"/>
       <wxArrayString Name="Bookmarks"/>
       <IntVector Name="CollapsedFolds"/>
     </TabInfo>
     <TabInfo>
       <wxString Value="/home/yurback/Learning_C/16_Challenge_FileOutput/main.c" Name="FileName"/>
-      <int Value="6" Name="FirstVisibleLine"/>
-      <int Value="15" Name="CurrentLine"/>
-      <wxArrayString Name="Bookmarks"/>
-      <IntVector Name="CollapsedFolds"/>
-    </TabInfo>
-    <TabInfo>
-      <wxString Value="/home/yurback/Learning_C/16_Challenge_FileOutput/Home_Task1_copy" Name="FileName"/>
       <int Value="0" Name="FirstVisibleLine"/>
       <int Value="0" Name="CurrentLine"/>
-      <wxArrayString Name="Bookmarks"/>
-      <IntVector Name="CollapsedFolds"/>
-    </TabInfo>
-    <TabInfo>
-      <wxString Value="/home/yurback/Learning_C/16_Challenge_FileOutput/Home_task1" Name="FileName"/>
-      <int Value="0" Name="FirstVisibleLine"/>
-      <int Value="0" Name="CurrentLine"/>
-      <wxArrayString Name="Bookmarks"/>
-      <IntVector Name="CollapsedFolds"/>
-    </TabInfo>
-    <TabInfo>
-      <wxString Value="/home/yurback/Learning_C/3_Conversion_strings/main.c" Name="FileName"/>
-      <int Value="0" Name="FirstVisibleLine"/>
-      <int Value="12" Name="CurrentLine"/>
-      <wxArrayString Name="Bookmarks"/>
-      <IntVector Name="CollapsedFolds"/>
-    </TabInfo>
-    <TabInfo>
-      <wxString Value="/home/yurback/Learning_C/4_Pointers_inception/main.c" Name="FileName"/>
-      <int Value="0" Name="FirstVisibleLine"/>
-      <int Value="9" Name="CurrentLine"/>
       <wxArrayString Name="Bookmarks"/>
       <IntVector Name="CollapsedFolds"/>
     </TabInfo>
     <TabInfo>
       <wxString Value="/home/yurback/Learning_C/9_Challenge_reverseStr_bublesort/main.c" Name="FileName"/>
-      <int Value="27" Name="FirstVisibleLine"/>
-      <int Value="33" Name="CurrentLine"/>
+      <int Value="0" Name="FirstVisibleLine"/>
+      <int Value="0" Name="CurrentLine"/>
       <wxArrayString Name="Bookmarks"/>
       <IntVector Name="CollapsedFolds"/>
     </TabInfo>
     <TabInfo>
-      <wxString Value="/home/yurback/Learning_C/1_OutputUserInput/main.c" Name="FileName"/>
+      <wxString Value="/home/yurback/Learning_C/12_Challenge_DynamicMemoryAllocation/main.c" Name="FileName"/>
       <int Value="0" Name="FirstVisibleLine"/>
-      <int Value="43" Name="CurrentLine"/>
+      <int Value="0" Name="CurrentLine"/>
       <wxArrayString Name="Bookmarks"/>
       <IntVector Name="CollapsedFolds"/>
     </TabInfo>
