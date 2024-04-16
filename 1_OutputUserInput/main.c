@@ -1,13 +1,52 @@
 #include <limits.h>
 #include <stdio.h>
+#include <stdlib.h>
+
+
 // Пример карирования часть 1
-int (*sum (int x)) (int y)
+int (*sum (int x)) (int y, int z)
 {
-    int sum1 (int y)
+    int sum1 (int y, int z)
     {
-        return x + y;
+        return y + z;
     }
     return sum1;
+}
+
+int (*func(int c))(int x, int y)
+{
+    if (c == 1)
+    {
+        int fun1 (int x, int y)
+        {
+            return x + y;
+        }
+        return fun1;
+    }
+     if (c == 2)
+    {
+        int fun1 (int x, int y)
+        {
+            return x - y;
+        }
+        return fun1;
+    }
+     if (c == 3)
+    {
+        int fun1 (int x, int y)
+        {
+            return x * y;
+        }
+        return fun1;
+    }
+     if (c == 4)
+    {
+        int fun1 (int x, int y)
+        {
+            return x * y;
+        }
+        return fun1;
+    }
 }
 
 int main(void)
@@ -15,9 +54,11 @@ int main(void)
     // Пример карирования часть 2
     int carry = 0;
     
-    carry = sum (12) (13);
-    
+    carry = sum (1) (2,3);
     printf("%d\n", carry);
+    
+    carry = func (4) (5,4);
+     printf("%d\n", carry);
     //        int MyFavouriteNumber = 0;
     //        printf("Please enter your number...\n");
     //        scanf("%d",&MyFavouriteNumber);
@@ -85,5 +126,23 @@ int main(void)
 //    char h[20]; // будет ошибка
     char *h;
     h="time's up";
-    printf("string is %s",h);
+    printf("string is %s\n",h);
+    struct mybool {
+        _Bool f1:1;
+        _Bool f2:1;
+        _Bool f3:1;
+        _Bool f4:1;
+        _Bool f5:1;
+        _Bool f6:1;
+        _Bool f7:1;
+        _Bool f8:1;
+    } mb = {1,1,1,1,1,1,1,1};
+    printf("sizeof _Bool is %0b\n", mb);
+    mb.f7=0;
+    mb.f6=0;
+     printf("sizeof _Bool is %0b\n", mb);
+    mb.f7='a';
+    mb.f6='c';
+     printf("sizeof _Bool is %0b\n", mb);
+    return 0;
 }
