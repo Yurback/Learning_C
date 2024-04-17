@@ -2,7 +2,7 @@
 <CodeLite_Workspace Name="Learning_C" Database="" Version="10000">
   <Project Name="Hello_world" Path="Hello_world/Hello_world.project" Active="No"/>
   <Project Name="Hello2" Path="Hello2/Hello2.project" Active="No"/>
-  <Project Name="1_OutputUserInput" Path="1_OutputUserInput/1_OutputUserInput.project" Active="Yes"/>
+  <Project Name="1_OutputUserInput" Path="1_OutputUserInput/1_OutputUserInput.project" Active="No"/>
   <VirtualDirectory Name="Challanges">
     <Project Name="1_Challenge_printYourName" Path="1_Challenge_printYourName/1_Challenge_printYourName.project" Active="No"/>
     <Project Name="2_Challenge_enums" Path="2_Challenge_enums/2_Challenge_enums.project" Active="No"/>
@@ -27,6 +27,7 @@
   <Project Name="4_Pointers_inception" Path="4_Pointers_inception/4_Pointers_inception.project" Active="No"/>
   <Project Name="5_copyWideCharString" Path="5_copyWideCharString/5_copyWideCharString.project" Active="No"/>
   <Project Name="6_Carying" Path="6_Carying/6_Carying.project" Active="No"/>
+  <Project Name="7_Searching_array" Path="7_Searching_array/7_Searching_array.project" Active="Yes"/>
   <BuildMatrix>
     <WorkspaceConfiguration Name="Debug">
       <Environment/>
@@ -56,6 +57,7 @@
       <Project Name="16_Challenge_FileOutput" ConfigName="Debug"/>
       <Project Name="17_Challenge_positioning" ConfigName="Debug"/>
       <Project Name="6_Carying" ConfigName="Debug"/>
+      <Project Name="7_Searching_array" ConfigName="Debug"/>
     </WorkspaceConfiguration>
     <WorkspaceConfiguration Name="Release">
       <Environment/>
@@ -85,6 +87,7 @@
       <Project Name="16_Challenge_FileOutput" ConfigName="Release"/>
       <Project Name="17_Challenge_positioning" ConfigName="Release"/>
       <Project Name="6_Carying" ConfigName="Release"/>
+      <Project Name="7_Searching_array" ConfigName="Release"/>
     </WorkspaceConfiguration>
   </BuildMatrix>
 </CodeLite_Workspace>

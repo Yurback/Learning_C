@@ -1,8 +1,8 @@
 .PHONY: clean All
 
 All:
-	@echo "----------Building project:[ 1_OutputUserInput - Debug ]----------"
-	@cd "1_OutputUserInput" && "$(MAKE)" -f  "1_OutputUserInput.mk"
+	@echo "----------Building project:[ 7_Searching_array - Debug ]----------"
+	@cd "7_Searching_array" && "$(MAKE)" -f  "7_Searching_array.mk"
 clean:
-	@echo "----------Cleaning project:[ 1_OutputUserInput - Debug ]----------"
-	@cd "1_OutputUserInput" && "$(MAKE)" -f  "1_OutputUserInput.mk" clean
+	@echo "----------Cleaning project:[ 7_Searching_array - Debug ]----------"
+	@cd "7_Searching_array" && "$(MAKE)" -f  "7_Searching_array.mk" clean
