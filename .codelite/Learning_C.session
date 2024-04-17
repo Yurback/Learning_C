@@ -5,15 +5,15 @@
   <TabInfoArray Name="TabInfoArray">
     <TabInfo>
       <wxString Value="/home/yurback/C_projects/Learning_C/1_OutputUserInput/main.c" Name="FileName"/>
-      <int Value="99" Name="FirstVisibleLine"/>
-      <int Value="118" Name="CurrentLine"/>
+      <int Value="148" Name="FirstVisibleLine"/>
+      <int Value="56" Name="CurrentLine"/>
       <wxArrayString Name="Bookmarks"/>
       <IntVector Name="CollapsedFolds"/>
     </TabInfo>
     <TabInfo>
       <wxString Value="/home/yurback/C_projects/Learning_C/6_Carying/main.c" Name="FileName"/>
-      <int Value="57" Name="FirstVisibleLine"/>
-      <int Value="12" Name="CurrentLine"/>
+      <int Value="0" Name="FirstVisibleLine"/>
+      <int Value="0" Name="CurrentLine"/>
       <wxArrayString Name="Bookmarks"/>
       <IntVector Name="CollapsedFolds"/>
     </TabInfo>
