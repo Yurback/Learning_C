@@ -14,6 +14,7 @@
 /home/yurback/C_projects/Learning_C/Hello_world/main.c
 /home/yurback/C_projects/Learning_C/5_Challenge_rainfalls/weather.c
 /home/yurback/C_projects/Learning_C/8_Challenge_char_array/main.c
+/home/yurback/C_projects/Learning_C/7_printf_foo/main.c
 /home/yurback/C_projects/Learning_C/Hello2/main.c
 /home/yurback/C_projects/Learning_C/9_Challenge_reverseStr_bublesort/main.c
 /home/yurback/C_projects/Learning_C/3_Challenge_rectangle/main.c
