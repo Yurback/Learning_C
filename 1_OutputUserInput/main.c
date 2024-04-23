@@ -144,5 +144,11 @@ int main(void)
     mb.f7='a';
     mb.f6='c';
      printf("sizeof _Bool is %0b\n", mb);
+    
+    for(int i=0;i<3;i++) {
+        int number = 0;
+        number++;
+        printf("number is: %d\n",number);
+    }
     return 0;
 }

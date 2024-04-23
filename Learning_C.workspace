@@ -1,6 +1,6 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <CodeLite_Workspace Name="Learning_C" Database="" Version="10000">
-  <Project Name="Hello_world" Path="Hello_world/Hello_world.project" Active="No"/>
+  <Project Name="Hello_world" Path="Hello_world/Hello_world.project" Active="Yes"/>
   <Project Name="Hello2" Path="Hello2/Hello2.project" Active="No"/>
   <Project Name="1_OutputUserInput" Path="1_OutputUserInput/1_OutputUserInput.project" Active="No"/>
   <VirtualDirectory Name="Challanges">
@@ -28,7 +28,8 @@
   <Project Name="5_copyWideCharString" Path="5_copyWideCharString/5_copyWideCharString.project" Active="No"/>
   <Project Name="6_Carying" Path="6_Carying/6_Carying.project" Active="No"/>
   <Project Name="7_Searching_array" Path="7_Searching_array/7_Searching_array.project" Active="No"/>
-  <Project Name="7_printf_foo" Path="7_printf_foo/7_printf_foo.project" Active="Yes"/>
+  <Project Name="7_printf_foo" Path="7_printf_foo/7_printf_foo.project" Active="No"/>
+  <Project Name="8_Structure_build" Path="8_Structure_build/8_Structure_build.project" Active="No"/>
   <BuildMatrix>
     <WorkspaceConfiguration Name="Debug">
       <Environment/>
@@ -60,6 +61,7 @@
       <Project Name="6_Carying" ConfigName="Debug"/>
       <Project Name="7_Searching_array" ConfigName="Debug"/>
       <Project Name="7_printf_foo" ConfigName="Debug"/>
+      <Project Name="8_Structure_build" ConfigName="Debug"/>
     </WorkspaceConfiguration>
     <WorkspaceConfiguration Name="Release">
       <Environment/>
@@ -91,6 +93,7 @@
       <Project Name="6_Carying" ConfigName="Release"/>
       <Project Name="7_Searching_array" ConfigName="Release"/>
       <Project Name="7_printf_foo" ConfigName="Release"/>
+      <Project Name="8_Structure_build" ConfigName="Release"/>
     </WorkspaceConfiguration>
   </BuildMatrix>
 </CodeLite_Workspace>
