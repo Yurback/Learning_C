@@ -6,15 +6,15 @@
 ProjectName            :=Hello2
 ConfigurationName      :=Debug
 WorkspaceConfiguration :=Debug
-WorkspacePath          :=/home/yurback/Learning_C
-ProjectPath            :=/home/yurback/Learning_C/Hello2
+WorkspacePath          :=/home/yurback/C_projects/Learning_C
+ProjectPath            :=/home/yurback/C_projects/Learning_C/Hello2
 IntermediateDirectory  :=$(ConfigurationName)
 OutDir                 := $(IntermediateDirectory)
 CurrentFileName        :=
 CurrentFilePath        :=
 CurrentFileFullPath    :=
 User                   :=Yurback
-Date                   :=09/03/24
+Date                   :=04/05/24
 CodeLitePath           :=/home/yurback/.codelite
 LinkerName             :=/usr/bin/g++-12
 SharedObjectLinkerName :=/usr/bin/g++-12 -shared -fPIC
@@ -95,7 +95,7 @@ PreBuild:
 ##
 $(IntermediateDirectory)/main.c$(ObjectSuffix): main.c
 	@$(CC) $(CFLAGS) $(IncludePath) -MG -MP -MT$(IntermediateDirectory)/main.c$(ObjectSuffix) -MF$(IntermediateDirectory)/main.c$(DependSuffix) -MM main.c
-	$(CC) $(SourceSwitch) "/home/yurback/Learning_C/Hello2/main.c" $(CFLAGS) $(ObjectSwitch)$(IntermediateDirectory)/main.c$(ObjectSuffix) $(IncludePath)
+	$(CC) $(SourceSwitch) "/home/yurback/C_projects/Learning_C/Hello2/main.c" $(CFLAGS) $(ObjectSwitch)$(IntermediateDirectory)/main.c$(ObjectSuffix) $(IncludePath)
 $(IntermediateDirectory)/main.c$(PreprocessSuffix): main.c
 	$(CC) $(CFLAGS) $(IncludePath) $(PreprocessOnlySwitch) $(OutputSwitch) $(IntermediateDirectory)/main.c$(PreprocessSuffix) main.c
 

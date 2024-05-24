@@ -30,6 +30,8 @@
   <Project Name="7_Searching_array" Path="7_Searching_array/7_Searching_array.project" Active="No"/>
   <Project Name="7_printf_foo" Path="7_printf_foo/7_printf_foo.project" Active="No"/>
   <Project Name="8_Structure_build" Path="8_Structure_build/8_Structure_build.project" Active="No"/>
+  <Project Name="9_test_cmp_with_NULL" Path="9_test_cmp_with_NULL/9_test_cmp_with_NULL.project" Active="No"/>
+  <Project Name="10_Flex_arr_memb" Path="10_Flex_arr_memb/10_Flex_arr_memb.project" Active="No"/>
   <BuildMatrix>
     <WorkspaceConfiguration Name="Debug">
       <Environment/>
@@ -62,6 +64,8 @@
       <Project Name="7_Searching_array" ConfigName="Debug"/>
       <Project Name="7_printf_foo" ConfigName="Debug"/>
       <Project Name="8_Structure_build" ConfigName="Debug"/>
+      <Project Name="9_test_cmp_with_NULL" ConfigName="Debug"/>
+      <Project Name="10_Flex_arr_memb" ConfigName="Debug"/>
     </WorkspaceConfiguration>
     <WorkspaceConfiguration Name="Release">
       <Environment/>
@@ -94,6 +98,8 @@
       <Project Name="7_Searching_array" ConfigName="Release"/>
       <Project Name="7_printf_foo" ConfigName="Release"/>
       <Project Name="8_Structure_build" ConfigName="Release"/>
+      <Project Name="9_test_cmp_with_NULL" ConfigName="Release"/>
+      <Project Name="10_Flex_arr_memb" ConfigName="Release"/>
     </WorkspaceConfiguration>
   </BuildMatrix>
 </CodeLite_Workspace>
